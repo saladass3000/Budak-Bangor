@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerJoined : Bolt.EntityBehaviour<ICostumCubeState>
 
 {
-    public Camera entityCamera;
     private string username;
 
     public override void Attached()
@@ -15,11 +14,5 @@ public class PlayerJoined : Bolt.EntityBehaviour<ICostumCubeState>
         evnt.Send();
     }
 
-    public override void SimulateOwner()
-    {
-        if(entity.IsOwner && entityCamera.gameObject.activeInHierarchy == false)
-        {
-            entityCamera.gameObject.SetActive(true);
-        }
-    }
+   
 }

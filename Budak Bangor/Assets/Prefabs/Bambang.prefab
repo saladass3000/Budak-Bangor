@@ -65,7 +65,7 @@ MonoBehaviour:
   sensHorizontal: 10
   sensVertical: 10
   _rotationX: 0
---- !u!114 &-2846597417238781162
+--- !u!114 &-729807002077089940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74,11 +74,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2639099134327058689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca7dd30f5bb77424489005b4ffc8ae00, type: 3}
+  m_Script: {fileID: 11500000, guid: a9d0dc854518eaa41b69ef75f887f717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   entityCamera: {fileID: 5469102904824711496}
---- !u!114 &3016250205734000926
+--- !u!114 &4836474127933728855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,10 +87,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2639099134327058689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33698ad81e058344b982904b8d26fcaa, type: 3}
+  m_Script: {fileID: 11500000, guid: 071ce459db06ed448ae7721e35acf93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 5
   gravity: -9
 --- !u!1 &3522805805263576532
 GameObject:
@@ -119,7 +119,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3522805805263576532}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 2.22, z: 0.311}
+  m_LocalPosition: {x: 0, y: 2.22, z: 0.452}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1352398713536643858}

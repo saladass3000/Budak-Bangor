@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraDetector
     - Menu
     - MenuController
     - PlayerInfo
@@ -9,7 +10,6 @@ ScriptsOnlyBuild:
     - PlayerSetup
     - ServerEventListener
     - cameraController
-    - playerMovement1
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -75,8 +75,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12258}
     - Class: 114
-      Script: {instanceID: 12306}
-    - Class: 114
       Script: {instanceID: 12356}
     - Class: 114
       Script: {instanceID: 12614}
@@ -92,6 +90,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13132}
     - Class: 114
       Script: {instanceID: 13166}
+    - Class: 114
+      Script: {instanceID: 16468}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -672,7 +672,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 426a54ba4fed1efc5e55f675968d17d0
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerJoined
@@ -742,6 +742,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 426a54ba4fed1efc5e55f675968d17d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraDetector
   platform: 5
   scenePathNames:
   - Assets/Scenes/Menu.unity

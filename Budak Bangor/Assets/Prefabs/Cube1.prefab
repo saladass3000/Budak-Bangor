@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 6450757797845634099}
   - component: {fileID: 8188459260056202761}
   - component: {fileID: -4814495280870625025}
+  - component: {fileID: -732763328313336006}
+  - component: {fileID: 5579160774132153571}
   m_Layer: 0
   m_Name: Cube1
   m_TagString: Untagged
@@ -177,7 +179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7dd30f5bb77424489005b4ffc8ae00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entityCamera: {fileID: 148405387045864857}
 --- !u!114 &-4814495280870625025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,10 +191,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1814d228b0b0cd046bf695c1733e1e32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  gravity: -9
   characterValues: 0
   myCharacter: {fileID: 0}
+--- !u!114 &-732763328313336006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925989071641513255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071ce459db06ed448ae7721e35acf93a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  gravity: -9
+--- !u!114 &5579160774132153571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925989071641513255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d0dc854518eaa41b69ef75f887f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entityCamera: {fileID: 148405387045864857}
 --- !u!1 &1874560812581274648
 GameObject:
   m_ObjectHideFlags: 0
