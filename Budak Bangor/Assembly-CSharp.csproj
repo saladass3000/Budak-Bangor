@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraDetector.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\NetworkCallback.cs" />
@@ -71,8 +72,8 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerSetup.cs" />
     <Compile Include="Assets\Scripts\ServerEventListener.cs" />
+    <Compile Include="Assets\Scripts\Teleporter.cs" />
     <Compile Include="Assets\Scripts\cameraController.cs" />
-    <Compile Include="Assets\Scripts\playerMovement1.cs" />
     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
     <Reference Include="Unity.Timeline.Editor">

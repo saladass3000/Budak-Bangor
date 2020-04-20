@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Murid
   - Guru
+  - Door
   layers:
   - Default
   - TransparentFX
