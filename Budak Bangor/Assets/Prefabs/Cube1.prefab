@@ -11,13 +11,10 @@ GameObject:
   - component: {fileID: 6808185554613578783}
   - component: {fileID: 655875937380104321}
   - component: {fileID: 3060296216582703797}
-  - component: {fileID: 8420298059797421273}
   - component: {fileID: 4088690918267688284}
   - component: {fileID: 6593095893954215920}
-  - component: {fileID: 6450757797845634099}
   - component: {fileID: 8188459260056202761}
   - component: {fileID: -4814495280870625025}
-  - component: {fileID: -732763328313336006}
   - component: {fileID: 5579160774132153571}
   m_Layer: 0
   m_Name: Cube1
@@ -89,24 +86,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &8420298059797421273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925989071641513255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc35dbc02de246e4a831ee0ed1337d8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axes: 1
-  minimunVert: -45
-  maximumVert: 45
-  sensHorizontal: 10
-  sensVertical: 10
-  _rotationX: 0
 --- !u!65 &4088690918267688284
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -149,24 +128,6 @@ MonoBehaviour:
   _entityBehaviourQueryOption: 0
   _entityPriorityCalculatorQueryOption: 0
   _entityReplicationFilterQueryOption: 0
---- !u!143 &6450757797845634099
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925989071641513255}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8188459260056202761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,20 +154,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterValues: 0
   myCharacter: {fileID: 0}
---- !u!114 &-732763328313336006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925989071641513255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 071ce459db06ed448ae7721e35acf93a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  gravity: -9
 --- !u!114 &5579160774132153571
 MonoBehaviour:
   m_ObjectHideFlags: 0

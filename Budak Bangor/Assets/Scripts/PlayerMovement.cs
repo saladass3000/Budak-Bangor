@@ -19,12 +19,9 @@ public class PlayerMovement : Bolt.EntityBehaviour<ICostumCubeState>
 
     public override void SimulateOwner()
     {
-       
 
-        anim.SetFloat("Vertical", Input.GetAxis("Vertical"));
 
-       
-        
+        anim.SetFloat("Vertical", Input.GetAxis("Vertical")); 
         float deltaX = Input.GetAxis("Horizontal") * speed;
         float deltaZ = Input.GetAxis("Vertical") * speed;
         Vector3 movement = new Vector3(deltaX, 0, deltaZ);
