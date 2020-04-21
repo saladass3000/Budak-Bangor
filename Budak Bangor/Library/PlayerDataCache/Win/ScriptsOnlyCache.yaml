@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnimatorStateTransitionInspector
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
@@ -331,6 +332,8 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
@@ -693,7 +696,7 @@ ScriptsOnlyBuild:
     className: GlobalEventListener
   - hash:
       serializedVersion: 2
-      Hash: 873fd219d529d8aacb8de05778e6ad91
+      Hash: edf52eac44cf78c85ed693d2aaedd053
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement

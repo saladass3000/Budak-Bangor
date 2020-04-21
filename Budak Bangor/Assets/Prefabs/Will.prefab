@@ -176,6 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   gravity: -9
+  anim: {fileID: 0}
 --- !u!114 &4473912757897476888
 MonoBehaviour:
   m_ObjectHideFlags: 0
